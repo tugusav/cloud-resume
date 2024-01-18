@@ -7,7 +7,7 @@ export default function Footer() {
             &copy; 2024 Tugus. All rights reserved.
         </small>
         <p className='text-xs'>
-            <span className='font-semibold'>This website is built with React & Next.js, TypeScript, Tailwind CSS, Resend, and hosted in GCP.</span>
+            <span className='font-semibold'>This website is built with React & Next.js, TypeScript, Tailwind CSS, and Resend.</span>
         </p>
     </footer>
   )
