@@ -77,7 +77,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1" />
         </Link>
         <a
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full dark:bg-white/10 dark:text-white/60 outline-none focus:scale-110 hover:scale-110 active:scale-105 border-black/10 transition"
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full dark:bg-white/10 dark:text-white/60 shadow-lg focus:scale-110 hover:scale-110 active:scale-105 border-black/10 transition"
           href="CV_Tugus.pdf"
           download={true}
         >

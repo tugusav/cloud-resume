@@ -8,7 +8,6 @@ import Visitor from './components/visitor'
 import Skills from './components/skills'
 import Experiences from './components/experiences'
 import Contact from './components/contact'
-import Footer from './components/footer'
 import ContactMe from './components/contactme'
 
 export default function Home() {

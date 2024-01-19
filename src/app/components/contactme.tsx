@@ -22,7 +22,7 @@ export default function ContactMe() {
         Please contact me directly at{" "}
         <a className="underline" href="mailto:tugus.ibram@gmail.com">
           tugus.ibram@gmail.com
-        </a> <br /> Whether you have a question or just want to
+        </a> or reach me out on <a href="https://x.com/tugusav" target="_blank" className="underline text-l">X.com!</a><br /> Whether you have a question or just want to
         say hi, I'll try my best to get back to you!
       </p>
     </motion.section>
