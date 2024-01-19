@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section_heading";
 import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -8,6 +8,11 @@ import { sendEmail } from "../helpers/send_email";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact", 0.5);
+
+  const handleSubmit = async(formData: FormData) => {
+    await sendEmail(formData);
+    window.alert("Email sent! Thank you for contacting me :)");
+  }
 
   return (
     <motion.section
@@ -31,9 +36,7 @@ export default function Contact() {
       </p>
       <form
         className="mt-10 flex flex-col dark:text-black"
-        action={async(formData) => {
-          await sendEmail(formData);
-        }}
+        action={handleSubmit}
       >
         <input
           className="h-14 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 
