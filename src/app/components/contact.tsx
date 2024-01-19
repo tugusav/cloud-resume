@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import SectionHeading from "./section_heading";
 import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
