@@ -12,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { useTheme } from "../context/theme-context";
 
 export default function Experiences() {
-  const { theme, toggleTheme} = useTheme();
+  const { theme } = useTheme();
   const {ref} = useSectionInView("Experience", 0.5); 
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40" ref={ref}>
